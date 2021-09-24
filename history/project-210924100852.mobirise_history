@@ -10,38 +10,34 @@
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
-        "warningColor": "#b8312f",
+        "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
-        "textFont": "Oswald",
-        "isRoundedButtons": true,
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
       },
-      "additionalSetColors": [
-        "#85caee"
-      ]
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.0",
     "siteFonts": [],
-    "uniqCompNum": 8,
-    "versionPublish": "5.4.1",
+    "uniqCompNum": 5,
+    "versionPublish": "4.10.0",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
     "siteUrl": "http://kkp100.com",
     "sitemapSwitcherAuto": "on",
-    "favicon": false,
+    "favicon": "",
     "noImageResize": "",
     "sitemapSwitcher": "on",
     "google-analytics": "",
-    "cookiesAlert": false,
-    "gdpr": false,
-    "imageResize": true,
-    "mbrsiteDomain": "75jigdtqoj"
+    "cookiesAlert": "",
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
@@ -120,12 +116,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/e730c6d1-ddac-4efd-9005-1c3257b0616f-1-105-c-192x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/64134744332-1501468c-8bb9-44fe-8dc8-11ec583ff4cc-96x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -146,36 +141,28 @@
             "showText": true,
             "showButtons": true,
             "showArrow": true,
-            "contentAlign": "right",
+            "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/b7670b42-21c0-4015-85ba-acd863909b68-1-105-c-758x1037.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/64134744332-1501468c-8bb9-44fe-8dc8-11ec583ff4cc-2000x2667.png",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#000000",
+            "bgColor": "#a07e49",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.3"
+            "overlayOpacity": "0.6"
           },
           "title": "KKP100.com",
-          "text": "Give 100% in all that you do!&nbsp;",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Let's Connect</a>",
+          "text": "Busy building <a href=\"http://hoopscollege.com\" class=\"text-danger\">Hoops College</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Contact me</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-0",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#e25041"
-            },
-            ".mbr-section-lead": {
-              "text-align": "right"
-            }
-          }
+          "_anchor": "header1-0"
         },
         {
           "_params": {
@@ -194,8 +181,8 @@
             "overlayOpacity": 0.5
           },
           "title": "CONTACT KKP",
-          "subtitle": "You only get 1 life...make the most of it.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Let's Connect</a>",
+          "subtitle": "",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
           "form": {
             "action": "kristin@hoopscollege.com",
             "alerts": {
@@ -236,27 +223,26 @@
         },
         {
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#85caee",
+            "bgColor": "#2e2e2e",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/168885cc-6871-4467-b8d7-10de829da9a2-1-105-c-1086x724.jpg",
+              "src": "@PROJECT_PATH@/assets/images/64134744332-1501468c-8bb9-44fe-8dc8-11ec583ff4cc-265x353.png",
               "class": "card-img-top",
               "width": 265,
               "active": true,
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
@@ -266,45 +252,39 @@
           },
           "media1": {
             "iconFont": {
-              "class": "mbr-iconfont-company-contacts3",
-              "linkInNewWindow": false,
-              "name": "phone",
-              "family": "et-line",
               "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
               "size": 0,
-              "color": "#b8312f"
+              "family": "et-line"
             }
           },
           "media2": {
             "iconFont": {
-              "class": "mbr-iconfont-company-contacts3",
-              "linkInNewWindow": false,
-              "name": "map-pin",
-              "family": "et-line",
               "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
               "size": 0,
-              "color": "#b8312f"
+              "family": "et-line"
             }
           },
           "media3": {
             "iconFont": {
-              "class": "mbr-iconfont-company-contacts3",
-              "linkInNewWindow": false,
-              "name": "envelope",
-              "family": "et-line",
               "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
               "size": 0,
-              "color": "#b8312f"
+              "family": "et-line"
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Let's Connect</a>",
-          "title1": "Let's connect",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>",
+          "title1": "LInks",
           "text1": "Contacts",
           "text2": "+1-828-705-1382",
           "text3": "7101 Macfarlane Blvd Charlotte, NC",
-          "text4": "<a href=\"mailto:support@mobirise.com\" class=\"text-warning\">k</a>ristin@kkp100.com",
-          "text5": "<li></li>",
-          "text6": "Don't play it safe...let's make the most out of every single day we are blessed with...live your life on 100!",
+          "text4": "<a href=\"mailto:support@mobirise.com\">k</a>ristin@kkp100.com",
+          "text5": "<li><a class=\"text-white\" href=\"#\">C</a>ontact me</li>",
+          "text6": "",
           "form": {
             "title": "MESSAGE",
             "action": "dickran@gmail.com",
@@ -337,86 +317,7 @@
             "Theme"
           ],
           "_name": "contacts3",
-          "_anchor": "contacts3-4",
-          "_styles": {
-            "UL": {
-              "color": "#b8312f"
-            },
-            "H4": {
-              "color": "#b8312f"
-            },
-            "SPAN": {
-              "color": "#f3c649"
-            },
-            ".list-group-text": {
-              "color": "#b8312f"
-            },
-            ".card-text": {
-              "color": "#b8312f"
-            },
-            ".mbr-footer-content p": {
-              "color": "#b8312f"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "showArrow": true,
-            "imageSize": 50,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/a01737bd-78c2-4ec4-b1d2-3c52ccdff6d4-1-105-c-1024x768.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.3"
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/4f4cd2b1-fc7c-40f0-a53f-a5c972ea0e12-1-105-c-817x1024.jpeg",
-              "link": "",
-              "alt": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Live your life with intention!&nbsp;",
-          "text": "* Fitness<br>* Nutrition<br>* Mentality<br>* Life<br>Live each day in a way where you have ZERO regrets.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Let's Connect</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_anchor": "header2-5",
-          "_styles": {
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".mbr-section-text": {
-              "text-align": "left"
-            }
-          }
+          "_anchor": "contacts3-4"
         }
       ]
     }
